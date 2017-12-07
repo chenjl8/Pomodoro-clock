@@ -42,9 +42,9 @@ $(() => {
 
   $("#start").click(() => {
     $("#break,#main-heading,#st,#plus,#minus").hide();
+    $("#reset,#stop,#timeType").show();
     $("#timeType").html("Session time started:");
-
-    $("#reset,#stop").show();
+    
     updateTime();
     if (!timer && countTime > 0) {
       timer = setInterval(updateTime, 1000);
