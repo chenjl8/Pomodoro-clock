@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Pomodoro Clock</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+
+<audio id="buzzer">
+  <source src="https://cdn.hyperdev.com/d8a5f8bf-e88a-4587-97c5-d712ac2f6092%2Fwake_up_sound.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+
+<div class="container" id="clock">
+  <div id="main-heading">
+    <h1>Pomodoro Clock</h1>
+  </div>
+  
+  <div id="session">
+    <h6 id="timeType"></h6>
+    <a href=# id="minus" class="btn"><i class="fa fa-minus-square-o" aria-hidden="true"></i></a>
+    <h2 id="num25">25</h2>
+    <a href=# id="plus" class="btn"><i class="fa fa-plus-square-o" aria-hidden="true"></i></a>
+
+    <h6 id="st">Session Time</h6>
+
+  </div>
+  <div id="break">
+  <a href=# id="minusBreak" class="btn"><i class="fa fa-minus-square-o" aria-hidden="true"></i></a>
+    <h2 id="num5">5</h2>  
+  <a href=# id="plusBreak" class="btn"><i class="fa fa-plus-square-o" aria-hidden="true"></i></a>
+    <h6 id="bt">Break Time</h6>
+    
+  </div>
+  <a href="#" class="btn" id="start">Start</a>
+  <a href="#" class="btn" id="stop">Stop</a>
+  <a href="#" class="btn" id="reset"><i class="fa fa-repeat" aria-hidden="true"></i></a>
+  <p class="light">Made with <i class="fa fa-heart" aria-hidden="true"></i> by Chen</p>
+  
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+
+    <script  src="js/index.js"></script>
+
+</body>
+</html>
